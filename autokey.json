@@ -10,12 +10,12 @@
     }, 
     "settings": {
         "showTrayIcon": true, 
-        "sortByUsageCount": true, 
+        "sortByUsageCount": false, 
         "scriptGlobals": {}, 
         "undoUsingBackspace": true, 
-        "notificationIcon": "autokey-status", 
+        "notificationIcon": "autokey-status-dark", 
         "enableQT4Workaround": false, 
-        "promptToSave": false, 
+        "promptToSave": true, 
         "menuTakesFocus": false, 
         "interfaceType": "XRecord", 
         "windowDefaultSize": [

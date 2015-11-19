@@ -1,4 +1,3 @@
-# Enter script code
-
-result = subprocess.check_output("cd /data/projects/jvc-respawn && git current-branch | xargs echo -n", shell=True)
+# gcb = current respawn branch (require RESPAWN_PATH env var)
+result = subprocess.check_output(['/bin/bash', '-i', '-c', 'cd $RESPAWN_PATH && git current-branch | xargs echo -n'])
 keyboard.send_keys(result)

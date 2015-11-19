@@ -2,4 +2,3 @@ autokey.log
 autokey.pid
 autokey.json~
 .tag*
-data/*/*.json
