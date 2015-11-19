@@ -2,11 +2,11 @@
     "usageCount": 35,
     "omitTrigger": false,
     "prompt": false,
-    "description": "current-branch",
+    "description": "current-ticket",
     "abbreviation": {
         "wordChars": "[\\w]",
         "abbreviations": [
-            "gcb"
+            "gct"
         ],
         "immediate": true,
         "ignoreCase": false,
